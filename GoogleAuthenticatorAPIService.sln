@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthenticatorAPIService", "GoogleAuthenticatorAPIService\GoogleAuthenticatorAPIService.csproj", "{1B83AABC-FFBE-47A7-93C9-A373EF9B3440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthenticatorAPIService.Application", "GoogleAuthenticatorAPIService.Application\GoogleAuthenticatorAPIService.Application.csproj", "{B4EC19E8-8564-413F-BF62-EB35738B41B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthenticatorAPIService.Domain", "GoogleAuthenticatorAPIService.Domain\GoogleAuthenticatorAPIService.Domain.csproj", "{35D83312-CBE7-44DB-A47D-E8AE824B213D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAuthenticatorAPIService.Infrastructure", "GoogleAuthenticatorAPIService.Infrastructure\GoogleAuthenticatorAPIService.Infrastructure.csproj", "{B6DC5498-8F8C-4C9C-96AD-02E703FD97C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{1B83AABC-FFBE-47A7-93C9-A373EF9B3440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B83AABC-FFBE-47A7-93C9-A373EF9B3440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B83AABC-FFBE-47A7-93C9-A373EF9B3440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EC19E8-8564-413F-BF62-EB35738B41B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EC19E8-8564-413F-BF62-EB35738B41B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EC19E8-8564-413F-BF62-EB35738B41B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EC19E8-8564-413F-BF62-EB35738B41B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D83312-CBE7-44DB-A47D-E8AE824B213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D83312-CBE7-44DB-A47D-E8AE824B213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D83312-CBE7-44DB-A47D-E8AE824B213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D83312-CBE7-44DB-A47D-E8AE824B213D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DC5498-8F8C-4C9C-96AD-02E703FD97C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DC5498-8F8C-4C9C-96AD-02E703FD97C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DC5498-8F8C-4C9C-96AD-02E703FD97C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DC5498-8F8C-4C9C-96AD-02E703FD97C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
